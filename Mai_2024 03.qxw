@@ -738,7 +738,7 @@
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4294901760</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -746,25 +746,25 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Pixel GREEN" ID="44" Icon="">
+    <Button Caption="Macro GREEN" ID="44" Icon="">
      <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <BackgroundColor>4278255360</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="18"/>
+     <Function ID="27"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Pixel BLUE" ID="45" Icon="">
+    <Button Caption="Macro BLUE" ID="45" Icon="">
      <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4278190335</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -777,7 +777,7 @@
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundColor>4294914560</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
@@ -785,16 +785,16 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="" ID="47" Icon="">
+    <Button Caption="Macro White" ID="47" Icon="">
      <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
+      <BackgroundColor>4294967295</BackgroundColor>
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="36"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
@@ -802,9 +802,9 @@
      <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/bunt_fade.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="37"/>
@@ -869,7 +869,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/red_ora_step.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="42"/>
@@ -882,7 +882,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/red_ora_fade.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="57"/>
@@ -895,7 +895,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/blue_ora_step.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="43"/>
@@ -908,7 +908,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/blue_ora_fade.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="56"/>
@@ -1081,7 +1081,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/red_fade-in.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="48"/>
@@ -1094,7 +1094,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/green_fade-in.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="49"/>
@@ -1107,7 +1107,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/blue_fade-in.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="50"/>
@@ -1120,7 +1120,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/orange_fade-in.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="51"/>
@@ -1144,9 +1144,9 @@
      <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/bunt_step.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="65"/>
@@ -1157,9 +1157,9 @@
      <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/bunt_fade.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="72"/>
@@ -1211,7 +1211,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/red_ora_step.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="45"/>
@@ -1224,7 +1224,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/red_ora_fade.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="59"/>
@@ -1237,7 +1237,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/blue_ora_step.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="44"/>
@@ -1250,7 +1250,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/blue_ora_fade.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="58"/>
