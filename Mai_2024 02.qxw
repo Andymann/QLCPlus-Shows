@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.13.0</Version>
@@ -129,8 +129,8 @@
   <Function ID="3" Type="Scene" Name="PT 45°">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>3,249,2,169</ChannelGroupsVal>
-   <FixtureVal ID="0">2,169,3,0,4,249,5,0</FixtureVal>
-   <FixtureVal ID="1">2,169,3,0,4,249,5,0</FixtureVal>
+   <FixtureVal ID="0">2,84,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="1">2,84,3,0,4,0,5,0</FixtureVal>
   </Function>
   <Function ID="4" Type="Scene" Name="ALL OFF">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -141,8 +141,8 @@
   <Function ID="5" Type="Scene" Name="PT Vorne">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>3,218,2,169</ChannelGroupsVal>
-   <FixtureVal ID="0">2,169,3,0,4,218,5,0</FixtureVal>
-   <FixtureVal ID="1">2,169,3,0,4,218,5,0</FixtureVal>
+   <FixtureVal ID="0">2,84,3,0,4,35,5,0</FixtureVal>
+   <FixtureVal ID="1">2,84,3,0,4,35,5,0</FixtureVal>
   </Function>
   <Function ID="6" Type="Scene" Name="1 Template Macro">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -153,8 +153,8 @@
   <Function ID="7" Type="Scene" Name="PT Straight">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>3,127,2,169</ChannelGroupsVal>
-   <FixtureVal ID="0">2,169,3,0,4,127,5,0</FixtureVal>
-   <FixtureVal ID="1">2,169,3,0,4,127,5,0</FixtureVal>
+   <FixtureVal ID="0">2,84,3,0,4,127,5,0</FixtureVal>
+   <FixtureVal ID="1">2,84,3,0,4,127,5,0</FixtureVal>
   </Function>
   <Function ID="8" Type="Scene" Name="Macro Dimm Step 1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -175,7 +175,7 @@
    <FixtureVal ID="1">15,255,16,0</FixtureVal>
   </Function>
   <Function ID="11" Type="Chaser" Name="Macro Dimm Step">
-   <Speed FadeIn="1592" FadeOut="1592" Duration="908"/>
+   <Speed FadeIn="1592" FadeOut="1592" Duration="640"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -192,7 +192,7 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>0,255</ChannelGroupsVal>
    <FixtureVal ID="0">0,255</FixtureVal>
-   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255</FixtureVal>
   </Function>
   <Function ID="14" Type="Scene" Name="Pixel OFF">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -203,14 +203,14 @@
   <Function ID="15" Type="Scene" Name="PT 135°">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>3,172,2,169</ChannelGroupsVal>
-   <FixtureVal ID="0">2,169,3,0,4,172,5,0</FixtureVal>
-   <FixtureVal ID="1">2,169,3,0,4,172,5,0</FixtureVal>
+   <FixtureVal ID="0">2,84,3,0,4,72,5,0</FixtureVal>
+   <FixtureVal ID="1">2,84,3,0,4,72,5,0</FixtureVal>
   </Function>
   <Function ID="16" Type="Scene" Name="Pixel Dimm Step 2">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <ChannelGroupsVal>0,255</ChannelGroupsVal>
    <FixtureVal ID="0">0,0</FixtureVal>
-   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255</FixtureVal>
   </Function>
   <Function ID="17" Type="Scene" Name="Pixel RED">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -267,7 +267,7 @@
    <FixtureVal ID="1">1,255,7,255,8,104,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
   </Function>
   <Function ID="26" Type="Chaser" Name="Pixel Dimm Step">
-   <Speed FadeIn="0" FadeOut="0" Duration="908"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="640"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
@@ -350,11 +350,6 @@
    <ChannelGroupsVal>0,255</ChannelGroupsVal>
    <FixtureVal ID="0">0,255,1,91,6,0,7,0,8,0,9,0,10,255,11,0,12,0,13,0,14,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,91,6,0,7,0,8,0,9,0,10,255,11,0,12,0,13,0,14,0</FixtureVal>
-  </Function>
-  <Function ID="40" Type="Scene" Name="Pixel BUNT">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">1,255,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,97,14,134</FixtureVal>
-   <FixtureVal ID="1">1,255,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,97,14,134</FixtureVal>
   </Function>
   <Function ID="41" Type="Scene" Name="Pixel Dimm 100%">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -463,13 +458,6 @@
    <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">20</Step>
   </Function>
-  <Function ID="52" Type="Chaser" Name="Pixel BUNT fade in">
-   <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">40</Step>
-  </Function>
   <Function ID="53" Type="Chaser" Name="Pixel WHITE fade in">
    <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
    <Direction>Forward</Direction>
@@ -478,7 +466,7 @@
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">21</Step>
   </Function>
   <Function ID="54" Type="Chaser" Name="Macro Dimm Fade">
-   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Speed FadeIn="640" FadeOut="640" Duration="1280"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -486,7 +474,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">10</Step>
   </Function>
   <Function ID="55" Type="Chaser" Name="Pixel Dimm Fade">
-   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Speed FadeIn="640" FadeOut="640" Duration="1280"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -494,7 +482,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">16</Step>
   </Function>
   <Function ID="56" Type="Chaser" Name="Macro Ora Blue Fade">
-   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Speed FadeIn="640" FadeOut="640" Duration="1280"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -502,7 +490,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">33</Step>
   </Function>
   <Function ID="57" Type="Chaser" Name="Macro Ora Red Fade">
-   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Speed FadeIn="640" FadeOut="640" Duration="1280"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -510,7 +498,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">35</Step>
   </Function>
   <Function ID="58" Type="Chaser" Name="Pixel Ora Blue Fade">
-   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Speed FadeIn="640" FadeOut="640" Duration="1280"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -518,7 +506,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">23</Step>
   </Function>
   <Function ID="59" Type="Chaser" Name="Pixel Ora Red Fade">
-   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Speed FadeIn="640" FadeOut="640" Duration="1280"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -557,6 +545,76 @@
    <FixtureVal ID="0">15,0,16,0,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
    <FixtureVal ID="1">15,0,16,0,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
   </Function>
+  <Function ID="65" Type="Chaser" Name="Pixel Bunt Step">
+   <Speed FadeIn="0" FadeOut="0" Duration="640"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">70</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">69</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">68</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">67</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">71</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">66</Step>
+  </Function>
+  <Function ID="66" Type="Scene" Name="Pixel Bunt 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,6,0,7,255,8,0,9,0,10,0,11,0,12,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,6,0,7,0,8,255,9,255,10,0,11,0,12,0</FixtureVal>
+  </Function>
+  <Function ID="67" Type="Scene" Name="Pixel Bunt 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,6,0,7,0,8,255,9,0,10,0,11,0,12,0</FixtureVal>
+   <FixtureVal ID="1">1,255,6,0,7,255,8,0,9,255,10,0,11,0,12,0</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Scene" Name="Pixel Bunt 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,6,0,7,0,8,0,9,255,10,0,11,0,12,0</FixtureVal>
+   <FixtureVal ID="1">1,255,6,0,7,255,8,0,9,0,10,0,11,0,12,0</FixtureVal>
+  </Function>
+  <Function ID="69" Type="Scene" Name="Pixel Bunt 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,6,0,7,255,8,255,9,0,10,0,11,0,12,0</FixtureVal>
+   <FixtureVal ID="1">1,255,6,0,7,0,8,255,9,0,10,0,11,0,12,0</FixtureVal>
+  </Function>
+  <Function ID="70" Type="Scene" Name="Pixel Bunt 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,6,0,7,255,8,0,9,255,10,0,11,0,12,0</FixtureVal>
+   <FixtureVal ID="1">1,255,6,0,7,0,8,0,9,255,10,0,11,0,12,0</FixtureVal>
+  </Function>
+  <Function ID="71" Type="Scene" Name="Pixel Bunt 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,6,0,7,0,8,255,9,255,10,0,11,0,12,0</FixtureVal>
+   <FixtureVal ID="1">1,255,6,0,7,255,8,255,9,0,10,0,11,0,12,0</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Chaser" Name="Pixel Bunt Fade">
+   <Speed FadeIn="1280" FadeOut="1280" Duration="1280"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">68</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">66</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">69</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">71</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">70</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">67</Step>
+  </Function>
+  <Function ID="73" Type="Chaser" Name="Macro Dimm Step *2">
+   <Speed FadeIn="1592" FadeOut="1592" Duration="2560"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+  </Function>
+  <Function ID="74" Type="Chaser" Name="Pixel Dimm Step *2">
+   <Speed FadeIn="0" FadeOut="0" Duration="2560"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -573,21 +631,8 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
-   <Button Caption="Macro BUNT" ID="1" Icon="">
-    <WindowState Visible="False" X="50" Y="50" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="37"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
    <Button Caption="PT 135°" ID="3" Icon="">
-    <WindowState Visible="False" X="100" Y="470" Width="50" Height="50"/>
+    <WindowState Visible="True" X="110" Y="580" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -600,7 +645,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="PT 45°" ID="4" Icon="">
-    <WindowState Visible="False" X="160" Y="470" Width="50" Height="50"/>
+    <WindowState Visible="True" X="165" Y="580" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -613,7 +658,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="PT Vorne" ID="5" Icon="">
-    <WindowState Visible="False" X="220" Y="470" Width="50" Height="50"/>
+    <WindowState Visible="True" X="220" Y="580" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -626,7 +671,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Macro Dimm Step" ID="8" Icon="">
-    <WindowState Visible="False" X="550" Y="70" Width="50" Height="50"/>
+    <WindowState Visible="True" X="550" Y="70" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -638,60 +683,8 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
-   <Button Caption="Macro RED" ID="9" Icon="">
-    <WindowState Visible="False" X="45" Y="110" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="28"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Macro GREEN" ID="10" Icon="">
-    <WindowState Visible="False" X="105" Y="110" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="27"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Macro BLU" ID="11" Icon="">
-    <WindowState Visible="False" X="165" Y="110" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="29"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Macro ORA" ID="12" Icon="">
-    <WindowState Visible="False" X="225" Y="110" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="30"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
    <Button Caption="Macro Dimm 100%" ID="13" Icon="">
-    <WindowState Visible="False" X="610" Y="70" Width="50" Height="50"/>
+    <WindowState Visible="True" X="500" Y="70" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -703,60 +696,8 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
-   <Button Caption="Pixel RED" ID="15" Icon="">
-    <WindowState Visible="False" X="55" Y="255" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="17"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Pixel GREEN" ID="16" Icon="">
-    <WindowState Visible="False" X="115" Y="255" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="18"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Pixel BLUE" ID="17" Icon="">
-    <WindowState Visible="False" X="170" Y="255" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="19"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Pixel ORA" ID="18" Icon="">
-    <WindowState Visible="False" X="230" Y="255" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="20"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
    <Button Caption="Pixel Dimm Step" ID="19" Icon="">
-    <WindowState Visible="False" X="560" Y="205" Width="50" Height="50"/>
+    <WindowState Visible="True" X="560" Y="205" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -769,7 +710,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Pixel Dimm 100%" ID="20" Icon="">
-    <WindowState Visible="False" X="615" Y="205" Width="50" Height="50"/>
+    <WindowState Visible="True" X="505" Y="205" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -781,60 +722,8 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
-   <Button Caption="Macro Ora Red Step" ID="21" Icon="">
-    <WindowState Visible="False" X="335" Y="110" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="42"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Macro Ora Blue Step" ID="22" Icon="">
-    <WindowState Visible="False" X="390" Y="110" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="43"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Pixel Ora Red Step" ID="23" Icon="">
-    <WindowState Visible="False" X="330" Y="250" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="45"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Pixel Ora Blue Step" ID="24" Icon="">
-    <WindowState Visible="False" X="385" Y="250" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="44"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
    <Button Caption="Macro STROB" ID="25" Icon="">
-    <WindowState Visible="False" X="675" Y="70" Width="50" Height="50"/>
+    <WindowState Visible="True" X="675" Y="70" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -847,7 +736,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Pixel STROB" ID="26" Icon="">
-    <WindowState Visible="False" X="680" Y="205" Width="50" Height="50"/>
+    <WindowState Visible="True" X="680" Y="205" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -860,7 +749,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="PT Straight" ID="6" Icon="">
-    <WindowState Visible="False" X="45" Y="470" Width="50" Height="50"/>
+    <WindowState Visible="True" X="50" Y="575" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -873,7 +762,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Circle Slo" ID="7" Icon="">
-    <WindowState Visible="False" X="370" Y="475" Width="50" Height="50"/>
+    <WindowState Visible="True" X="410" Y="580" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -886,7 +775,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Circle Fast" ID="27" Icon="">
-    <WindowState Visible="False" X="425" Y="475" Width="50" Height="50"/>
+    <WindowState Visible="True" X="465" Y="580" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -898,60 +787,8 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
-   <Button Caption="Pixel RED" ID="28" Icon="">
-    <WindowState Visible="False" X="55" Y="310" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="48"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Pixel GREEN fade in" ID="29" Icon="">
-    <WindowState Visible="False" X="110" Y="310" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="49"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Pixel BLUE fade in" ID="30" Icon="">
-    <WindowState Visible="False" X="170" Y="310" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="50"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Pixel ORA fade in" ID="31" Icon="">
-    <WindowState Visible="False" X="230" Y="310" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="51"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
    <SpeedDial Caption="Dauer" ID="0">
-    <WindowState Visible="False" X="1185" Y="620" Width="175" Height="85"/>
+    <WindowState Visible="True" X="1185" Y="620" Width="175" Height="85"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -961,18 +798,22 @@
     </Appearance>
     <Visibility>4</Visibility>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
-    <Time>908</Time>
+    <Time>640</Time>
     <Function FadeIn="6" FadeOut="6" Duration="7">59</Function>
     <Function FadeIn="6" FadeOut="6" Duration="7">58</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">74</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">26</Function>
     <Function FadeIn="6" FadeOut="6" Duration="7">55</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">65</Function>
+    <Function FadeIn="7" FadeOut="7" Duration="7">72</Function>
     <Function FadeIn="6" FadeOut="6" Duration="7">57</Function>
     <Function FadeIn="6" FadeOut="6" Duration="7">56</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="8">73</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">11</Function>
     <Function FadeIn="6" FadeOut="6" Duration="7">54</Function>
    </SpeedDial>
    <Button Caption="Macro Dimm Fade" ID="2" Icon="">
-    <WindowState Visible="False" X="550" Y="125" Width="50" Height="50"/>
+    <WindowState Visible="True" X="605" Y="70" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -985,7 +826,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Button Caption="Pixel Dimm Fade" ID="32" Icon="">
-    <WindowState Visible="False" X="560" Y="260" Width="50" Height="50"/>
+    <WindowState Visible="True" X="615" Y="205" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -997,60 +838,8 @@
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
-   <Button Caption="Macro Ora Red Fade" ID="33" Icon="">
-    <WindowState Visible="False" X="335" Y="160" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="57"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Macro Ora Blue Fade" ID="34" Icon="">
-    <WindowState Visible="False" X="390" Y="160" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="56"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Pixel Ora Red Fade" ID="35" Icon="">
-    <WindowState Visible="False" X="330" Y="300" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="59"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="Pixel Ora Blue Fade" ID="36" Icon="">
-    <WindowState Visible="False" X="385" Y="300" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="58"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
    <Button Caption="StrobDimmer" ID="37" Icon="">
-    <WindowState Visible="False" X="675" Y="130" Width="50" Height="50"/>
+    <WindowState Visible="True" X="675" Y="135" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1059,11 +848,11 @@
      <Font>Default</Font>
     </Appearance>
     <Function ID="60"/>
-    <Action Override="0" ForceLTP="1">Flash</Action>
+    <Action Override="1" ForceLTP="1">Flash</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <Slider Caption="Strobe ALL" ID="38" WidgetStyle="Slider" InvertedAppearance="false">
-    <WindowState Visible="False" X="735" Y="60" Width="60" Height="200"/>
+    <WindowState Visible="True" X="735" Y="60" Width="60" Height="200"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1078,8 +867,8 @@
      <Function>61</Function>
     </Playback>
    </Slider>
-   <Button Caption="Pixel BUNT" ID="14" Icon="">
-    <WindowState Visible="False" X="55" Y="200" Width="50" Height="50"/>
+   <Button Caption="Pixel Dimm Step *2" ID="41" Icon="">
+    <WindowState Visible="True" X="560" Y="255" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1087,12 +876,12 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Function ID="40"/>
+    <Function ID="74"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
-   <Button Caption="Makro STROB" ID="39" Icon="">
-    <WindowState Visible="False" X="880" Y="140" Width="50" Height="50"/>
+   <Button Caption="Macro Dimm Step *2" ID="42" Icon="">
+    <WindowState Visible="True" X="550" Y="120" Width="50" Height="50"/>
     <Appearance>
      <FrameStyle>None</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1100,10 +889,694 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Function ID="62"/>
+    <Function ID="73"/>
     <Action>Toggle</Action>
     <Intensity Adjust="False">100</Intensity>
    </Button>
+   <SoloFrame Caption="" ID="39">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="125" Y="5" Width="265" Height="270"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Macro RED" ID="43" Icon="">
+     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="28"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel GREEN" ID="44" Icon="">
+     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="18"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel BLUE" ID="45" Icon="">
+     <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="29"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Macro ORA" ID="46" Icon="">
+     <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="30"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="47" Icon="">
+     <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Macro BUNT" ID="48" Icon="">
+     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="37"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="49" Icon="">
+     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="50" Icon="">
+     <WindowState Visible="True" X="110" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="51" Icon="">
+     <WindowState Visible="True" X="160" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="52" Icon="">
+     <WindowState Visible="True" X="210" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Macro Ora Red Step" ID="53" Icon="">
+     <WindowState Visible="True" X="10" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="42"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Macro Ora Red Fade" ID="54" Icon="">
+     <WindowState Visible="True" X="60" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="57"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Macro Ora Blu Step" ID="55" Icon="">
+     <WindowState Visible="True" X="110" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="43"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Macro Ora Blu Fade" ID="56" Icon="">
+     <WindowState Visible="True" X="160" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="56"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="57" Icon="">
+     <WindowState Visible="True" X="210" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="58" Icon="">
+     <WindowState Visible="True" X="10" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="59" Icon="">
+     <WindowState Visible="True" X="60" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="60" Icon="">
+     <WindowState Visible="True" X="110" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="61" Icon="">
+     <WindowState Visible="True" X="160" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="62" Icon="">
+     <WindowState Visible="True" X="210" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="63" Icon="">
+     <WindowState Visible="True" X="10" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="64" Icon="">
+     <WindowState Visible="True" X="60" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="65" Icon="">
+     <WindowState Visible="True" X="110" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="66" Icon="">
+     <WindowState Visible="True" X="160" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="67" Icon="">
+     <WindowState Visible="True" X="210" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SoloFrame Caption="" ID="1">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="125" Y="285" Width="270" Height="270"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Pixel RED fade in" ID="9" Icon="">
+     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="48"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel GREEN fade in" ID="10" Icon="">
+     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="49"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel BLU fade in" ID="11" Icon="">
+     <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="50"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel ORA fade in" ID="12" Icon="">
+     <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="51"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel WHITE fade in" ID="21" Icon="">
+     <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="53"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel Bunt Step" ID="22" Icon="">
+     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="65"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel Bunt Fade" ID="33" Icon="">
+     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="72"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="34" Icon="">
+     <WindowState Visible="True" X="110" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="68" Icon="">
+     <WindowState Visible="True" X="160" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="69" Icon="">
+     <WindowState Visible="True" X="210" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel Ora Red Step" ID="70" Icon="">
+     <WindowState Visible="True" X="10" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="45"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel Ora Red Fade" ID="71" Icon="">
+     <WindowState Visible="True" X="60" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="59"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel Ora Blu Step" ID="72" Icon="">
+     <WindowState Visible="True" X="110" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="44"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Pixel Ora Blu Fade" ID="73" Icon="">
+     <WindowState Visible="True" X="160" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="58"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="74" Icon="">
+     <WindowState Visible="True" X="210" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="75" Icon="">
+     <WindowState Visible="True" X="10" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="76" Icon="">
+     <WindowState Visible="True" X="60" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="77" Icon="">
+     <WindowState Visible="True" X="110" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="78" Icon="">
+     <WindowState Visible="True" X="160" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="79" Icon="">
+     <WindowState Visible="True" X="210" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="80" Icon="">
+     <WindowState Visible="True" X="10" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="81" Icon="">
+     <WindowState Visible="True" X="60" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="82" Icon="">
+     <WindowState Visible="True" X="110" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="83" Icon="">
+     <WindowState Visible="True" X="160" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="" ID="84" Icon="">
+     <WindowState Visible="True" X="210" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
