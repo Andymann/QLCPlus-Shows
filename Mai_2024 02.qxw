@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.0</Version>
+  <Author>Andy Fischer</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: A60300LR)" Line="0">
+     <PluginParameters UniverseChannels="156"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+   <Universe Name="Universe 5" ID="4">
+    <Input Plugin="Loopback" UID="Loopback 1" Line="0"/>
+    <Output Plugin="Loopback" UID="Loopback 1" Line="0">
+     <PluginParameters UniverseChannels="1"/>
+    </Output>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>FOS</Manufacturer>
+   <Model>IQ Aurora</Model>
+   <Mode>CH28</Mode>
+   <ID>0</ID>
+   <Name>IQ Aurora #1</Name>
+   <Universe>0</Universe>
+   <Address>100</Address>
+   <Channels>28</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>FOS</Manufacturer>
+   <Model>IQ Aurora</Model>
+   <Mode>CH28</Mode>
+   <ID>1</ID>
+   <Name>IQ Aurora #2</Name>
+   <Universe>0</Universe>
+   <Address>128</Address>
+   <Channels>28</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>2</ID>
+   <Name>StrobDimmer</Name>
+   <Universe>4</Universe>
+   <Address>0</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <ChannelsGroup ID="0" Name="Dimmer" Value="0">0,0,1,0</ChannelsGroup>
+  <ChannelsGroup ID="1" Name="Shutter" Value="0">0,1,1,1</ChannelsGroup>
+  <ChannelsGroup ID="2" Name="PAN coarse" Value="0">0,2,1,2</ChannelsGroup>
+  <ChannelsGroup ID="3" Name="TILT coarse" Value="0">0,4,1,4</ChannelsGroup>
+  <ChannelsGroup ID="4" Name="SPEED pan / tilt" Value="0">0,6,1,6</ChannelsGroup>
+  <ChannelsGroup ID="5" Name="RED" Value="0">0,7,1,7</ChannelsGroup>
+  <ChannelsGroup ID="6" Name="GREEN" Value="0">0,8,1,8</ChannelsGroup>
+  <ChannelsGroup ID="7" Name="BLUE" Value="0">0,9,1,9</ChannelsGroup>
+  <ChannelsGroup ID="8" Name="WHITE" Value="0">0,10,1,10</ChannelsGroup>
+  <ChannelsGroup ID="9" Name="Macro Color" Value="0">0,11,1,11</ChannelsGroup>
+  <ChannelsGroup ID="10" Name="Color Temp" Value="0">0,12,1,12</ChannelsGroup>
+  <ChannelsGroup ID="11" Name="Macro Run" Value="0">0,13,1,13</ChannelsGroup>
+  <ChannelsGroup ID="12" Name="Macro Speed" Value="0">0,14,1,14</ChannelsGroup>
+  <ChannelsGroup ID="13" Name="Pix Dimmer" Value="0">0,15,1,15</ChannelsGroup>
+  <ChannelsGroup ID="14" Name="Pix Strobe" Value="0">0,16,1,16</ChannelsGroup>
+  <ChannelsGroup ID="15" Name="Pix Red" Value="0">0,17,1,17</ChannelsGroup>
+  <ChannelsGroup ID="16" Name="Pix Green" Value="0">0,18,1,18</ChannelsGroup>
+  <ChannelsGroup ID="17" Name="Pix Blue" Value="0">0,19,1,19</ChannelsGroup>
+  <ChannelsGroup ID="18" Name="Pix Color" Value="0">0,20,1,20</ChannelsGroup>
+  <ChannelsGroup ID="19" Name="Pix Macro" Value="0">0,21,1,21</ChannelsGroup>
+  <ChannelsGroup ID="20" Name="Pix Macro Speed" Value="0">0,22,1,22</ChannelsGroup>
+  <ChannelsGroup ID="21" Name="Expand Patterns" Value="0">0,23,1,23</ChannelsGroup>
+  <ChannelsGroup ID="22" Name="Pix Foreground Dimmer" Value="0">0,24,1,24</ChannelsGroup>
+  <ChannelsGroup ID="23" Name="Pix Background Dimmer" Value="0">0,25,1,25</ChannelsGroup>
+  <ChannelsGroup ID="24" Name="Pix Background Color" Value="0">0,26,1,26</ChannelsGroup>
+  <ChannelsGroup ID="25" Name="Special Function" Value="0">0,27,1,27</ChannelsGroup>
+  <Function ID="0" Type="Scene" Name="PT OFF">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0"/>
+   <FixtureVal ID="1"/>
+  </Function>
+  <Function ID="1" Type="Scene" Name="PT">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">2,0,4,255</FixtureVal>
+   <FixtureVal ID="1"/>
+  </Function>
+  <Function ID="2" Type="EFX" Name="Circle Slo">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>180</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>48</Width>
+   <Height>48</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="3" Type="Scene" Name="PT 45°">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,249,2,169</ChannelGroupsVal>
+   <FixtureVal ID="0">2,169,3,0,4,249,5,0</FixtureVal>
+   <FixtureVal ID="1">2,169,3,0,4,249,5,0</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="ALL OFF">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,0,1,0,2,0,3,0,4,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,5,0</ChannelGroupsVal>
+   <FixtureVal ID="0">0,0,1,0,2,0,4,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,4,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0,15,0,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0,27,0</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="PT Vorne">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,218,2,169</ChannelGroupsVal>
+   <FixtureVal ID="0">2,169,3,0,4,218,5,0</FixtureVal>
+   <FixtureVal ID="1">2,169,3,0,4,218,5,0</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="1 Template Macro">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,255,15,255,16,0</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="PT Straight">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,127,2,169</ChannelGroupsVal>
+   <FixtureVal ID="0">2,169,3,0,4,127,5,0</FixtureVal>
+   <FixtureVal ID="1">2,169,3,0,4,127,5,0</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="Macro Dimm Step 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">15,255,16,0</FixtureVal>
+   <FixtureVal ID="1">15,0,16,0</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="1 Template Pixel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="Macro Dimm Step 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">15,0,16,0</FixtureVal>
+   <FixtureVal ID="1">15,255,16,0</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Chaser" Name="Macro Dimm Step">
+   <Speed FadeIn="1592" FadeOut="1592" Duration="908"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+  </Function>
+  <Function ID="12" Type="Scene" Name="Macro Dimm 100%">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">15,255,16,0</FixtureVal>
+   <FixtureVal ID="1">15,255,16,0</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="Pixel Dimm Step 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="Pixel OFF">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255,1,255,5,0,6,0,7,0,8,0,9,0,10,0,11,0,12,0</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,255,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,7,0,8,0,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="PT 135°">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,172,2,169</ChannelGroupsVal>
+   <FixtureVal ID="0">2,169,3,0,4,172,5,0</FixtureVal>
+   <FixtureVal ID="1">2,169,3,0,4,172,5,0</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="Pixel Dimm Step 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="Pixel RED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255,5,255,6,0,7,0,8,0,9,0,10,0,11,0,12,0</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,7,255,8,0,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">1,255,7,255,8,0,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="Pixel GREEN">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255,5,0,6,255,7,0,8,0,9,0,10,0,11,0,12,0</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,7,0,8,255,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">1,255,7,0,8,255,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="Pixel BLUE">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255,5,0,6,0,7,255,8,0,9,0,10,0,11,0,12,0</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,7,0,8,0,9,255,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">1,255,7,0,8,0,9,255,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="Pixel ORA">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255,5,255,6,104,7,0,8,0,9,0,10,0,11,0,12,0</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,7,255,8,104,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">1,255,7,255,8,104,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="Pixel WHITE">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255,5,0,6,0,7,0,8,255,9,0,10,0,11,0,12,0</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,7,0,8,0,9,0,10,255,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">1,255,7,0,8,0,9,0,10,255,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="Pixel ORA BLU 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,7,255,8,104,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">1,255,7,0,8,0,9,255,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="Pixel ORA BLU 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,7,0,8,0,9,255,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">1,255,7,255,8,104,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="Pixel ORA RED 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,7,255,8,104,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">1,255,7,255,8,0,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="Pixel ORA RED 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>1,255</ChannelGroupsVal>
+   <FixtureVal ID="0">1,255,7,255,8,0,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">1,255,7,255,8,104,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Chaser" Name="Pixel Dimm Step">
+   <Speed FadeIn="0" FadeOut="0" Duration="908"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+  </Function>
+  <Function ID="27" Type="Scene" Name="Macro GREEN">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">16,0,17,0,18,255,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">16,0,17,0,18,255,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="Macro RED">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">16,0,17,255,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">16,0,17,255,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="Macro BLU">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">16,0,17,0,18,0,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">16,0,17,0,18,0,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="Macro ORA">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">16,0,17,255,18,43,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">16,0,17,255,18,43,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="Macro OFF">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">15,255,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">15,255,16,0,17,0,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="Macro ORA BLU 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">16,0,17,255,18,43,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">16,0,17,0,18,0,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="Macro ORA BLU 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">16,0,17,0,18,0,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">16,0,17,255,18,43,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="Macro ORA RED 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">16,0,17,255,18,43,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">16,0,17,255,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="Macro ORA RED 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">16,0,17,255,18,0,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">16,0,17,255,18,43,19,0,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="Macro WHITE">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">16,0,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">16,0,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="Macro BUNT">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">16,0,17,0,18,0,19,0,20,0,21,19,22,237,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">16,0,17,0,18,0,19,0,20,0,21,19,22,237,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="Macro STROB">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">15,255,16,240,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">15,255,16,240,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="Pixel STROB">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,91,6,0,7,0,8,0,9,0,10,255,11,0,12,0,13,0,14,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,91,6,0,7,0,8,0,9,0,10,255,11,0,12,0,13,0,14,0</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="Pixel BUNT">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">1,255,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,97,14,134</FixtureVal>
+   <FixtureVal ID="1">1,255,6,0,7,0,8,0,9,0,10,0,11,0,12,0,13,97,14,134</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="Pixel Dimm 100%">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Chaser" Name="Macro Ora Red Step">
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">35</Step>
+  </Function>
+  <Function ID="43" Type="Chaser" Name="Macro Ora Blue Step">
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">32</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">33</Step>
+  </Function>
+  <Function ID="44" Type="Chaser" Name="Pixel Ora Blue Step">
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">22</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+  </Function>
+  <Function ID="45" Type="Chaser" Name="Pixel Ora Red Step">
+   <Speed FadeIn="0" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">24</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+  </Function>
+  <Function ID="46" Type="Scene" Name="_1 Macro Test">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">15,17,16,33,17,0,18,255,21,0,22,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1"/>
+  </Function>
+  <Function ID="47" Type="EFX" Name="Circle Fast">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>180</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>48</Width>
+   <Height>48</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
+  <Function ID="48" Type="Chaser" Name="Pixel RED fade in">
+   <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="4000" Hold="0" FadeOut="0">17</Step>
+  </Function>
+  <Function ID="49" Type="Chaser" Name="Pixel GREEN fade in">
+   <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">18</Step>
+  </Function>
+  <Function ID="50" Type="Chaser" Name="Pixel BLUE fade in">
+   <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+  </Function>
+  <Function ID="51" Type="Chaser" Name="Pixel ORA fade in">
+   <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">20</Step>
+  </Function>
+  <Function ID="52" Type="Chaser" Name="Pixel BUNT fade in">
+   <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+  </Function>
+  <Function ID="53" Type="Chaser" Name="Pixel WHITE fade in">
+   <Speed FadeIn="1000" FadeOut="0" Duration="1000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+  </Function>
+  <Function ID="54" Type="Chaser" Name="Macro Dimm Fade">
+   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+  </Function>
+  <Function ID="55" Type="Chaser" Name="Pixel Dimm Fade">
+   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">16</Step>
+  </Function>
+  <Function ID="56" Type="Chaser" Name="Macro Ora Blue Fade">
+   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">32</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">33</Step>
+  </Function>
+  <Function ID="57" Type="Chaser" Name="Macro Ora Red Fade">
+   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">35</Step>
+  </Function>
+  <Function ID="58" Type="Chaser" Name="Pixel Ora Blue Fade">
+   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">22</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+  </Function>
+  <Function ID="59" Type="Chaser" Name="Pixel Ora Red Fade">
+   <Speed FadeIn="908" FadeOut="908" Duration="1816"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">24</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+  </Function>
+  <Function ID="60" Type="Scene" Name="StrobDimmer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255</FixtureVal>
+  </Function>
+  <Function ID="61" Type="Chaser" Name="Strob ALL">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">38</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+  </Function>
+  <Function ID="62" Type="Chaser" Name="Makro STROB">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">63</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">64</Step>
+  </Function>
+  <Function ID="63" Type="Scene" Name="Macro WHITE Strob 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">15,255,16,0,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">15,255,16,0,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Function ID="64" Type="Scene" Name="Macro WHITE Strob 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="0">15,0,16,0,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+   <FixtureVal ID="1">15,0,16,0,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Button Caption="Macro BUNT" ID="1" Icon="">
+    <WindowState Visible="False" X="50" Y="50" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="37"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="PT 135°" ID="3" Icon="">
+    <WindowState Visible="False" X="100" Y="470" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="15"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="PT 45°" ID="4" Icon="">
+    <WindowState Visible="False" X="160" Y="470" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="3"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="PT Vorne" ID="5" Icon="">
+    <WindowState Visible="False" X="220" Y="470" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="5"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro Dimm Step" ID="8" Icon="">
+    <WindowState Visible="False" X="550" Y="70" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="11"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro RED" ID="9" Icon="">
+    <WindowState Visible="False" X="45" Y="110" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="28"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro GREEN" ID="10" Icon="">
+    <WindowState Visible="False" X="105" Y="110" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="27"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro BLU" ID="11" Icon="">
+    <WindowState Visible="False" X="165" Y="110" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="29"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro ORA" ID="12" Icon="">
+    <WindowState Visible="False" X="225" Y="110" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="30"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro Dimm 100%" ID="13" Icon="">
+    <WindowState Visible="False" X="610" Y="70" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="12"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel RED" ID="15" Icon="">
+    <WindowState Visible="False" X="55" Y="255" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="17"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel GREEN" ID="16" Icon="">
+    <WindowState Visible="False" X="115" Y="255" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="18"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel BLUE" ID="17" Icon="">
+    <WindowState Visible="False" X="170" Y="255" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="19"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel ORA" ID="18" Icon="">
+    <WindowState Visible="False" X="230" Y="255" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="20"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel Dimm Step" ID="19" Icon="">
+    <WindowState Visible="False" X="560" Y="205" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="26"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel Dimm 100%" ID="20" Icon="">
+    <WindowState Visible="False" X="615" Y="205" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="41"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro Ora Red Step" ID="21" Icon="">
+    <WindowState Visible="False" X="335" Y="110" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="42"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro Ora Blue Step" ID="22" Icon="">
+    <WindowState Visible="False" X="390" Y="110" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="43"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel Ora Red Step" ID="23" Icon="">
+    <WindowState Visible="False" X="330" Y="250" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="45"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel Ora Blue Step" ID="24" Icon="">
+    <WindowState Visible="False" X="385" Y="250" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="44"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro STROB" ID="25" Icon="">
+    <WindowState Visible="False" X="675" Y="70" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="38"/>
+    <Action Override="1" ForceLTP="0">Flash</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel STROB" ID="26" Icon="">
+    <WindowState Visible="False" X="680" Y="205" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="39"/>
+    <Action Override="1" ForceLTP="1">Flash</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="PT Straight" ID="6" Icon="">
+    <WindowState Visible="False" X="45" Y="470" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="7"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Circle Slo" ID="7" Icon="">
+    <WindowState Visible="False" X="370" Y="475" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="2"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Circle Fast" ID="27" Icon="">
+    <WindowState Visible="False" X="425" Y="475" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="47"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel RED" ID="28" Icon="">
+    <WindowState Visible="False" X="55" Y="310" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="48"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel GREEN fade in" ID="29" Icon="">
+    <WindowState Visible="False" X="110" Y="310" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="49"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel BLUE fade in" ID="30" Icon="">
+    <WindowState Visible="False" X="170" Y="310" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="50"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel ORA fade in" ID="31" Icon="">
+    <WindowState Visible="False" X="230" Y="310" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="51"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <SpeedDial Caption="Dauer" ID="0">
+    <WindowState Visible="False" X="1185" Y="620" Width="175" Height="85"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>4</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Time>908</Time>
+    <Function FadeIn="6" FadeOut="6" Duration="7">59</Function>
+    <Function FadeIn="6" FadeOut="6" Duration="7">58</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">26</Function>
+    <Function FadeIn="6" FadeOut="6" Duration="7">55</Function>
+    <Function FadeIn="6" FadeOut="6" Duration="7">57</Function>
+    <Function FadeIn="6" FadeOut="6" Duration="7">56</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">11</Function>
+    <Function FadeIn="6" FadeOut="6" Duration="7">54</Function>
+   </SpeedDial>
+   <Button Caption="Macro Dimm Fade" ID="2" Icon="">
+    <WindowState Visible="False" X="550" Y="125" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="54"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel Dimm Fade" ID="32" Icon="">
+    <WindowState Visible="False" X="560" Y="260" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="55"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro Ora Red Fade" ID="33" Icon="">
+    <WindowState Visible="False" X="335" Y="160" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="57"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Macro Ora Blue Fade" ID="34" Icon="">
+    <WindowState Visible="False" X="390" Y="160" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="56"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel Ora Red Fade" ID="35" Icon="">
+    <WindowState Visible="False" X="330" Y="300" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="59"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Pixel Ora Blue Fade" ID="36" Icon="">
+    <WindowState Visible="False" X="385" Y="300" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="58"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="StrobDimmer" ID="37" Icon="">
+    <WindowState Visible="False" X="675" Y="130" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="60"/>
+    <Action Override="0" ForceLTP="1">Flash</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Slider Caption="Strobe ALL" ID="38" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="735" Y="60" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Input Universe="4" Channel="0"/>
+    <SliderMode ValueDisplayStyle="Percentage" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>61</Function>
+    </Playback>
+   </Slider>
+   <Button Caption="Pixel BUNT" ID="14" Icon="">
+    <WindowState Visible="False" X="55" Y="200" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="40"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+   <Button Caption="Makro STROB" ID="39" Icon="">
+    <WindowState Visible="False" X="880" Y="140" Width="50" Height="50"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Function ID="62"/>
+    <Action>Toggle</Action>
+    <Intensity Adjust="False">100</Intensity>
+   </Button>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
