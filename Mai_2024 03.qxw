@@ -1100,57 +1100,57 @@
   </Function>
   <Function ID="121" Type="Scene" Name="RGB Led RED ORA 6 Step 1">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="6">2,255,3,0,4,0,5,0</FixtureVal>
-   <FixtureVal ID="7">2,255,3,75,4,0,5,0</FixtureVal>
-   <FixtureVal ID="8">2,255,3,0,4,0,5,0</FixtureVal>
-   <FixtureVal ID="9">2,255,3,0,4,0,5,0</FixtureVal>
-   <FixtureVal ID="10">0,255,1,14,2,0</FixtureVal>
-   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
-  </Function>
-  <Function ID="122" Type="Scene" Name="RGB Led RED ORA 6 Step 2">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">2,255,3,75,4,0,5,0</FixtureVal>
    <FixtureVal ID="7">2,255,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="8">2,255,3,75,4,0,5,0</FixtureVal>
-   <FixtureVal ID="9">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
    <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
-   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
   </Function>
-  <Function ID="123" Type="Scene" Name="RGB Led RED ORA 6 Step 3">
+  <Function ID="122" Type="Scene" Name="RGB Led RED ORA 6 Step 2">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">2,255,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="7">2,255,3,75,4,0,5,0</FixtureVal>
    <FixtureVal ID="8">2,255,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
-   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
-   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,14,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
   </Function>
-  <Function ID="124" Type="Scene" Name="RGB Led RED ORA 6 Step 4">
+  <Function ID="123" Type="Scene" Name="RGB Led RED ORA 6 Step 3">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="6">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="6">2,255,3,75,4,0,5,0</FixtureVal>
    <FixtureVal ID="7">2,255,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="8">2,255,3,75,4,0,5,0</FixtureVal>
    <FixtureVal ID="9">2,255,3,0,4,0,5,0</FixtureVal>
-   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,14,2,0</FixtureVal>
    <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
+  </Function>
+  <Function ID="124" Type="Scene" Name="RGB Led RED ORA 6 Step 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,14,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="125" Type="Scene" Name="RGB Led RED ORA 6 Step 5">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">2,255,3,75,4,0,5,0</FixtureVal>
-   <FixtureVal ID="7">2,255,3,0,4,0,5,0</FixtureVal>
-   <FixtureVal ID="8">2,255,3,0,4,0,5,0</FixtureVal>
-   <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
-   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
   </Function>
   <Function ID="126" Type="Scene" Name="RGB Led RED ORA 6 Step 6">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="6">2,255,3,0,4,0,5,0</FixtureVal>
    <FixtureVal ID="7">2,255,3,75,4,0</FixtureVal>
-   <FixtureVal ID="8">2,255,3,0,4,0,5,0</FixtureVal>
-   <FixtureVal ID="9">2,255,3,0,4,0,5,0</FixtureVal>
-   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
-   <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,14,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
   </Function>
   <Function ID="127" Type="Chaser" Name="RGB Led RED ORA 6 Step">
    <Speed FadeIn="0" FadeOut="0" Duration="1840"/>
