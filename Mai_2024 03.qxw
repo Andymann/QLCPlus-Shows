@@ -244,7 +244,7 @@
    <FixtureVal ID="1">15,255,16,0</FixtureVal>
   </Function>
   <Function ID="11" Type="Chaser" Name="Macro Dimm Step">
-   <Speed FadeIn="1592" FadeOut="1592" Duration="208"/>
+   <Speed FadeIn="1592" FadeOut="1592" Duration="1840"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -336,7 +336,7 @@
    <FixtureVal ID="1">1,255,7,255,8,104,9,0,10,0,11,0,12,0,13,0,14,0</FixtureVal>
   </Function>
   <Function ID="26" Type="Chaser" Name="Pixel Dimm Step">
-   <Speed FadeIn="0" FadeOut="0" Duration="208"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1840"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
@@ -449,7 +449,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">33</Step>
   </Function>
   <Function ID="44" Type="Chaser" Name="Pixel Ora Blue Step">
-   <Speed FadeIn="0" FadeOut="0" Duration="208"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1840"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -550,7 +550,7 @@
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">21</Step>
   </Function>
   <Function ID="54" Type="Chaser" Name="Macro Dimm Fade">
-   <Speed FadeIn="416" FadeOut="416" Duration="416"/>
+   <Speed FadeIn="3680" FadeOut="3680" Duration="3680"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -558,7 +558,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">10</Step>
   </Function>
   <Function ID="55" Type="Chaser" Name="Pixel Dimm Fade">
-   <Speed FadeIn="416" FadeOut="416" Duration="832"/>
+   <Speed FadeIn="3680" FadeOut="3680" Duration="7360"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -566,7 +566,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">16</Step>
   </Function>
   <Function ID="56" Type="Chaser" Name="Macro Ora Blue Fade">
-   <Speed FadeIn="416" FadeOut="416" Duration="832"/>
+   <Speed FadeIn="3680" FadeOut="3680" Duration="7360"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -574,7 +574,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">33</Step>
   </Function>
   <Function ID="57" Type="Chaser" Name="Macro Ora Red Fade">
-   <Speed FadeIn="416" FadeOut="416" Duration="832"/>
+   <Speed FadeIn="3680" FadeOut="3680" Duration="7360"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -582,7 +582,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">35</Step>
   </Function>
   <Function ID="58" Type="Chaser" Name="Pixel Ora Blue Fade">
-   <Speed FadeIn="416" FadeOut="416" Duration="832"/>
+   <Speed FadeIn="3680" FadeOut="3680" Duration="7360"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -590,7 +590,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">23</Step>
   </Function>
   <Function ID="59" Type="Chaser" Name="Pixel Ora Red Fade">
-   <Speed FadeIn="416" FadeOut="416" Duration="832"/>
+   <Speed FadeIn="3680" FadeOut="3680" Duration="7360"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -630,7 +630,7 @@
    <FixtureVal ID="1">15,0,16,0,17,255,18,255,19,255,20,0,21,0,22,0,23,0,24,0,25,0,26,0</FixtureVal>
   </Function>
   <Function ID="65" Type="Chaser" Name="Pixel Bunt Step">
-   <Speed FadeIn="0" FadeOut="0" Duration="208"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1840"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -672,7 +672,7 @@
    <FixtureVal ID="1">1,255,6,0,7,255,8,255,9,0,10,0,11,0,12,0</FixtureVal>
   </Function>
   <Function ID="72" Type="Chaser" Name="Pixel Bunt Fade">
-   <Speed FadeIn="416" FadeOut="416" Duration="832"/>
+   <Speed FadeIn="3680" FadeOut="3680" Duration="7360"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -684,7 +684,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">67</Step>
   </Function>
   <Function ID="73" Type="Chaser" Name="Macro Dimm Step *2">
-   <Speed FadeIn="1592" FadeOut="1592" Duration="832"/>
+   <Speed FadeIn="1592" FadeOut="1592" Duration="7360"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -692,7 +692,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">10</Step>
   </Function>
   <Function ID="74" Type="Chaser" Name="Pixel Dimm Step *2">
-   <Speed FadeIn="0" FadeOut="0" Duration="832"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="7360"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Default" Duration="Common"/>
@@ -907,7 +907,7 @@
    <Step Number="1">88</Step>
   </Function>
   <Function ID="98" Type="Chaser" Name="RGB Led Dimm 6 Step">
-   <Speed FadeIn="0" FadeOut="0" Duration="208"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1840"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -923,7 +923,7 @@
    <Step Number="1">85</Step>
   </Function>
   <Function ID="100" Type="Chaser" Name="RGB Led Dimm 6 Fade">
-   <Speed FadeIn="416" FadeOut="416" Duration="208"/>
+   <Speed FadeIn="3680" FadeOut="3680" Duration="7360"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -953,7 +953,7 @@
    <FixtureVal ID="11">3,255</FixtureVal>
   </Function>
   <Function ID="103" Type="Chaser" Name="RGB Led Dimm 2 Step">
-   <Speed FadeIn="0" FadeOut="0" Duration="208"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1840"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -961,7 +961,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">102</Step>
   </Function>
   <Function ID="104" Type="Chaser" Name="RGB Led Dimm 2 Fade">
-   <Speed FadeIn="416" FadeOut="416" Duration="208"/>
+   <Speed FadeIn="3680" FadeOut="3680" Duration="7360"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -996,7 +996,7 @@
    <FixtureVal ID="11">3,255</FixtureVal>
   </Function>
   <Function ID="108" Type="Chaser" Name="RGB Led Dimm InOut Step">
-   <Speed FadeIn="0" FadeOut="0" Duration="208"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1840"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -1098,6 +1098,162 @@
    <Step Number="0">89</Step>
    <Step Number="1">90</Step>
   </Function>
+  <Function ID="121" Type="Scene" Name="RGB Led RED ORA 6 Step 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,14,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="122" Type="Scene" Name="RGB Led RED ORA 6 Step 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="123" Type="Scene" Name="RGB Led RED ORA 6 Step 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="124" Type="Scene" Name="RGB Led RED ORA 6 Step 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
+  </Function>
+  <Function ID="125" Type="Scene" Name="RGB Led RED ORA 6 Step 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,0,2,0</FixtureVal>
+  </Function>
+  <Function ID="126" Type="Scene" Name="RGB Led RED ORA 6 Step 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,75,4,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,0,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,0,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
+  </Function>
+  <Function ID="127" Type="Chaser" Name="RGB Led RED ORA 6 Step">
+   <Speed FadeIn="0" FadeOut="0" Duration="1840"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">121</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">122</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">123</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">124</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">125</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">126</Step>
+  </Function>
+  <Function ID="128" Type="Chaser" Name="RGB Led RED ORA 6 Fade">
+   <Speed FadeIn="3680" FadeOut="3680" Duration="1840"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">121</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">122</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">123</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">124</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">125</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">126</Step>
+  </Function>
+  <Function ID="129" Type="Scene" Name="RGB Led BLU ORA 6 Step 1">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,0,3,0,4,255,5,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
+  </Function>
+  <Function ID="130" Type="Scene" Name="RGB Led BLU ORA 6 Step 2">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,0,3,0,4,255,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="8">2,0,3,0,4,255,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,14,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
+  </Function>
+  <Function ID="131" Type="Scene" Name="RGB Led BLU ORA 6 Step 3">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,0,3,0,4,255,5,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,0,3,0,4,255,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,14,2,0</FixtureVal>
+   <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
+  </Function>
+  <Function ID="132" Type="Scene" Name="RGB Led BLU ORA 6 Step 4">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="8">2,0,3,0,4,255,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,14,2,0</FixtureVal>
+   <FixtureVal ID="11">0,0,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="133" Type="Scene" Name="RGB Led BLU ORA 6 Step 5">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,0,3,0,4,255,5,0</FixtureVal>
+   <FixtureVal ID="10">0,0,1,0,2,255</FixtureVal>
+   <FixtureVal ID="11">0,255,1,14,2,0</FixtureVal>
+  </Function>
+  <Function ID="134" Type="Scene" Name="RGB Led BLU ORA 6 Step 6">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">2,0,3,0,4,255,5,0</FixtureVal>
+   <FixtureVal ID="7">2,255,3,75,4,0</FixtureVal>
+   <FixtureVal ID="8">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="9">2,255,3,75,4,0,5,0</FixtureVal>
+   <FixtureVal ID="10">0,255,1,14,2,0</FixtureVal>
+   <FixtureVal ID="11">0,1,1,0,2,255</FixtureVal>
+  </Function>
+  <Function ID="135" Type="Chaser" Name="RGB Led BLU ORA 6 Step">
+   <Speed FadeIn="0" FadeOut="0" Duration="1840"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">129</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">130</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">131</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">132</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">133</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">134</Step>
+  </Function>
+  <Function ID="136" Type="Chaser" Name="RGB Led BLU ORA 6 Fade">
+   <Speed FadeIn="3680" FadeOut="3680" Duration="1840"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">129</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">130</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">131</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">132</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">133</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">134</Step>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -1141,7 +1297,7 @@
     <Intensity Adjust="False">100</Intensity>
    </Button>
    <SpeedDial Caption="Dauer" ID="0">
-    <WindowState Visible="True" X="1095" Y="445" Width="175" Height="85"/>
+    <WindowState Visible="True" X="1095" Y="440" Width="270" Height="120"/>
     <Appearance>
      <FrameStyle>Sunken</FrameStyle>
      <ForegroundColor>Default</ForegroundColor>
@@ -1149,14 +1305,18 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <Visibility>4</Visibility>
+    <Visibility>65540</Visibility>
     <AbsoluteValue Minimum="0" Maximum="10000"/>
-    <Time>208</Time>
+    <Time>230</Time>
+    <Function FadeIn="0" FadeOut="0" Duration="6">127</Function>
+    <Function FadeIn="7" FadeOut="7" Duration="6">128</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">108</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">98</Function>
-    <Function FadeIn="7" FadeOut="7" Duration="6">100</Function>
+    <Function FadeIn="7" FadeOut="7" Duration="8">100</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">103</Function>
-    <Function FadeIn="7" FadeOut="7" Duration="6">104</Function>
+    <Function FadeIn="7" FadeOut="7" Duration="8">104</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">135</Function>
+    <Function FadeIn="7" FadeOut="7" Duration="6">136</Function>
     <Function FadeIn="7" FadeOut="7" Duration="8">59</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">44</Function>
     <Function FadeIn="7" FadeOut="7" Duration="8">58</Function>
@@ -2538,7 +2698,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="285" Y="280" Width="120" Height="270"/>
+    <WindowState Visible="True" X="10" Y="280" Width="225" Height="270"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -2547,7 +2707,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="RGB Led Dimm 50%" ID="7" Icon="">
-     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="True" X="10" Y="10" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2560,7 +2720,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="RGB Led Dimm 100%" ID="8" Icon="">
-     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="True" X="110" Y="10" Width="105" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2573,7 +2733,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="RGB Led Dimm 2 Step" ID="13" Icon="">
-     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="True" X="10" Y="60" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2586,7 +2746,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="RGB Led Dimm 2 Fade" ID="14" Icon="">
-     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="True" X="110" Y="60" Width="105" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2599,7 +2759,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 15" ID="15" Icon="">
-     <WindowState Visible="True" X="10" Y="110" Width="50" Height="50"/>
+     <WindowState Visible="True" X="10" Y="110" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2612,7 +2772,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 16" ID="16" Icon="">
-     <WindowState Visible="True" X="60" Y="110" Width="50" Height="50"/>
+     <WindowState Visible="True" X="110" Y="110" Width="105" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2625,7 +2785,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="RGB Led Dimm InOut Step" ID="17" Icon="">
-     <WindowState Visible="True" X="10" Y="160" Width="50" Height="50"/>
+     <WindowState Visible="True" X="10" Y="160" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2638,7 +2798,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 18" ID="18" Icon="">
-     <WindowState Visible="True" X="60" Y="160" Width="50" Height="50"/>
+     <WindowState Visible="True" X="110" Y="160" Width="105" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2651,7 +2811,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="RGB Led Dimm 6 Step" ID="19" Icon="">
-     <WindowState Visible="True" X="10" Y="210" Width="50" Height="50"/>
+     <WindowState Visible="True" X="10" Y="210" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2664,7 +2824,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="RGB Led Dimm 6 Fade" ID="20" Icon="">
-     <WindowState Visible="True" X="60" Y="210" Width="50" Height="50"/>
+     <WindowState Visible="True" X="110" Y="210" Width="105" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2685,7 +2845,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="410" Y="280" Width="270" Height="270"/>
+    <WindowState Visible="True" X="240" Y="280" Width="520" Height="270"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -2694,7 +2854,7 @@
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
     <Button Caption="RGB Led RED fade in" ID="24" Icon="">
-     <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="True" X="10" Y="10" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2707,7 +2867,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="RGB Led GREEN fade in" ID="27" Icon="">
-     <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="True" X="110" Y="10" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2720,7 +2880,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="RGB Led BLUE fade in" ID="28" Icon="">
-     <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="True" X="210" Y="10" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2733,7 +2893,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="RGB Led ORA fade in" ID="29" Icon="">
-     <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="True" X="310" Y="10" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2746,7 +2906,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 30" ID="30" Icon="">
-     <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
+     <WindowState Visible="True" X="410" Y="10" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2759,7 +2919,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 31" ID="31" Icon="">
-     <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="True" X="10" Y="60" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2772,7 +2932,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 32" ID="32" Icon="">
-     <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="True" X="110" Y="60" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2785,7 +2945,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 35" ID="35" Icon="">
-     <WindowState Visible="True" X="110" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="True" X="210" Y="60" Width="105" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2798,7 +2958,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 36" ID="36" Icon="">
-     <WindowState Visible="True" X="160" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="True" X="310" Y="60" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2811,7 +2971,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 40" ID="40" Icon="">
-     <WindowState Visible="True" X="210" Y="60" Width="50" Height="50"/>
+     <WindowState Visible="True" X="410" Y="60" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2823,60 +2983,60 @@
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Schalter 41" ID="41" Icon="">
-     <WindowState Visible="True" X="10" Y="110" Width="50" Height="50"/>
+    <Button Caption="RGB Led RED ORA 6 Step" ID="41" Icon="">
+     <WindowState Visible="True" X="10" Y="110" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/red_ora_step.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="127"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Schalter 42" ID="42" Icon="">
-     <WindowState Visible="True" X="60" Y="110" Width="50" Height="50"/>
+    <Button Caption="RGB Led RED ORA 6 Fade" ID="42" Icon="">
+     <WindowState Visible="True" X="110" Y="110" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/red_ora_fade.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="128"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Schalter 96" ID="96" Icon="">
-     <WindowState Visible="True" X="110" Y="110" Width="50" Height="50"/>
+    <Button Caption="RGB Led BLU ORA 6 Step" ID="96" Icon="">
+     <WindowState Visible="True" X="210" Y="110" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/blue_ora_step.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="135"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
-    <Button Caption="Schalter 97" ID="97" Icon="">
-     <WindowState Visible="True" X="160" Y="110" Width="50" Height="50"/>
+    <Button Caption="RGB Led BLU ORA 6 Fade" ID="97" Icon="">
+     <WindowState Visible="True" X="310" Y="110" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/blue_ora_fade.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Function ID="4294967295"/>
+     <Function ID="136"/>
      <Action>Toggle</Action>
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 98" ID="98" Icon="">
-     <WindowState Visible="True" X="210" Y="110" Width="50" Height="50"/>
+     <WindowState Visible="True" X="410" Y="110" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2889,7 +3049,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 99" ID="99" Icon="">
-     <WindowState Visible="True" X="10" Y="160" Width="50" Height="50"/>
+     <WindowState Visible="True" X="10" Y="160" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2902,7 +3062,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 100" ID="100" Icon="">
-     <WindowState Visible="True" X="60" Y="160" Width="50" Height="50"/>
+     <WindowState Visible="True" X="110" Y="160" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2915,7 +3075,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 101" ID="101" Icon="">
-     <WindowState Visible="True" X="110" Y="160" Width="50" Height="50"/>
+     <WindowState Visible="True" X="210" Y="160" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2928,7 +3088,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 102" ID="102" Icon="">
-     <WindowState Visible="True" X="160" Y="160" Width="50" Height="50"/>
+     <WindowState Visible="True" X="310" Y="160" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2941,7 +3101,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 103" ID="103" Icon="">
-     <WindowState Visible="True" X="210" Y="160" Width="50" Height="50"/>
+     <WindowState Visible="True" X="410" Y="160" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2954,7 +3114,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 104" ID="104" Icon="">
-     <WindowState Visible="True" X="10" Y="210" Width="50" Height="50"/>
+     <WindowState Visible="True" X="10" Y="210" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2967,7 +3127,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 105" ID="105" Icon="">
-     <WindowState Visible="True" X="60" Y="210" Width="50" Height="50"/>
+     <WindowState Visible="True" X="110" Y="210" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2980,7 +3140,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 106" ID="106" Icon="">
-     <WindowState Visible="True" X="110" Y="210" Width="50" Height="50"/>
+     <WindowState Visible="True" X="210" Y="210" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2993,7 +3153,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 140" ID="140" Icon="">
-     <WindowState Visible="True" X="160" Y="210" Width="50" Height="50"/>
+     <WindowState Visible="True" X="310" Y="210" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -3006,7 +3166,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 141" ID="141" Icon="">
-     <WindowState Visible="True" X="210" Y="210" Width="50" Height="50"/>
+     <WindowState Visible="True" X="410" Y="210" Width="100" Height="50"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -3019,32 +3179,6 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
    </SoloFrame>
-   <Button Caption="Floorspot GREEN" ID="142" Icon="">
-    <WindowState Visible="True" X="510" Y="650" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="92"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
-   <Button Caption="PAR ORA" ID="143" Icon="">
-    <WindowState Visible="True" X="575" Y="650" Width="50" Height="50"/>
-    <Appearance>
-     <FrameStyle>None</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <Function ID="90"/>
-    <Action>Toggle</Action>
-    <Intensity Adjust="False">100</Intensity>
-   </Button>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
