@@ -4272,7 +4272,7 @@
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/red_ora_fade.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="225"/>
@@ -4387,9 +4387,9 @@
      <WindowState Visible="True" X="900" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/bunt_fade.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="227"/>
@@ -4400,9 +4400,9 @@
      <WindowState Visible="True" X="1000" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
+      <ForegroundColor>4278190080</ForegroundColor>
       <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
+      <BackgroundImage>assets/bunt_step.jpg</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
      <Function ID="228"/>
