@@ -1884,6 +1884,42 @@
    <Step Number="9">136</Step>
    <Step Number="10">207</Step>
   </Function>
+  <Function ID="246" Type="EFX" Name="Square Choppy Slo">
+   <Fixture>
+    <ID>0</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>1</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>180</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>SquareChoppy</Algorithm>
+   <Width>23</Width>
+   <Height>23</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>1</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -2277,7 +2313,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Spot Tilt FX" ID="136" Icon="">
-      <WindowState Visible="True" X="10" Y="160" Width="100" Height="50"/>
+      <WindowState Visible="True" X="10" Y="210" Width="100" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2303,8 +2339,8 @@
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
-     <Button Caption="" ID="138" Icon="">
-      <WindowState Visible="True" X="10" Y="210" Width="100" Height="50"/>
+     <Button Caption="Square Choppy Slo" ID="138" Icon="">
+      <WindowState Visible="True" X="10" Y="160" Width="100" Height="50"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2312,7 +2348,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="246"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -3816,7 +3852,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="147">
+     <Level LowLimit="0" HighLimit="255" Value="151">
       <Channel Fixture="0">2</Channel>
      </Level>
      <Playback>
@@ -3834,7 +3870,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="177">
+     <Level LowLimit="0" HighLimit="255" Value="169">
       <Channel Fixture="0">4</Channel>
      </Level>
      <Playback>
@@ -4341,7 +4377,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="190">
+     <Level LowLimit="0" HighLimit="255" Value="187">
       <Channel Fixture="1">2</Channel>
      </Level>
      <Playback>
@@ -4359,7 +4395,7 @@
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="true">Level</SliderMode>
      <Reset/>
-     <Level LowLimit="0" HighLimit="255" Value="160">
+     <Level LowLimit="0" HighLimit="255" Value="169">
       <Channel Fixture="1">4</Channel>
      </Level>
      <Playback>
@@ -4389,7 +4425,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="0" Y="590" Width="1305" Height="115"/>
+    <WindowState Visible="True" X="0" Y="590" Width="1350" Height="120"/>
     <AllowChildren>False</AllowChildren>
     <AllowResize>False</AllowResize>
     <ShowHeader>False</ShowHeader>
@@ -4425,7 +4461,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="ALL RED ORA FADE IN OUT Fade" ID="272" Icon="">
-     <WindowState Visible="True" X="205" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="200" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4438,7 +4474,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 273" ID="273" Icon="">
-     <WindowState Visible="True" X="305" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="295" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4451,7 +4487,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="ALL ORA BLUE FADE" ID="274" Icon="">
-     <WindowState Visible="True" X="405" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="390" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4464,7 +4500,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 275" ID="275" Icon="">
-     <WindowState Visible="True" X="505" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="485" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4477,7 +4513,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 276" ID="276" Icon="">
-     <WindowState Visible="True" X="600" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="580" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4490,7 +4526,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 277" ID="277" Icon="">
-     <WindowState Visible="True" X="700" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="675" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4503,7 +4539,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 278" ID="278" Icon="">
-     <WindowState Visible="True" X="800" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="770" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4516,7 +4552,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="ALL BUNT FADE" ID="279" Icon="">
-     <WindowState Visible="True" X="900" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="865" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4278190080</ForegroundColor>
@@ -4529,7 +4565,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="ALL BUNT STEP" ID="280" Icon="">
-     <WindowState Visible="True" X="1000" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="960" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4278190080</ForegroundColor>
@@ -4542,7 +4578,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="Schalter 281" ID="281" Icon="">
-     <WindowState Visible="True" X="1095" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="1055" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -4555,7 +4591,7 @@
      <Intensity Adjust="False">100</Intensity>
     </Button>
     <Button Caption="ALL BLU" ID="282" Icon="">
-     <WindowState Visible="True" X="1195" Y="10" Width="95" Height="95"/>
+     <WindowState Visible="True" X="1150" Y="10" Width="95" Height="95"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
